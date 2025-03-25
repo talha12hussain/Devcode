@@ -3,7 +3,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Aboutuscontent from "./Aboutuscontent/Aboutuscontent";
-import Coustomersofware from "./Coustomersofware ";
 import Erpservicenow from "./Erpservicenow";
 import Erpsalesforce from "./Erpsalesforce";
 import Erpsap from "./Erpsap";
@@ -15,6 +14,7 @@ import BusinessAutomation from "./BusinessAutomation";
 import Viewservices from "./Viewservices";
 import EnterpriseResource from "./enterpriseResource";
 import Trainingoutsourcing from "./Trainingoutsourcing";
+import Coustomersofware from "./Coustomersofware";
 function App() {
   return (
     <div className="bg-black">
