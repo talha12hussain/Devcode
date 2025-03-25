@@ -29,7 +29,7 @@ const Erpsalesforce = () => {
           {/* Project 1 */}
           <div className="mb-16 p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">01</span>
+              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">Project 01</span>
               <h3 className="text-2xl font-semibold text-white">Salesforce CRM - Automated Lead Management and Customer Onboarding</h3>
             </div>
             <p className="text-gray-300 mb-4">
@@ -46,7 +46,7 @@ const Erpsalesforce = () => {
           {/* Project 2 */}
           <div className="mb-16 p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">02</span>
+              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">Project 02</span>
               <h3 className="text-2xl font-semibold text-white">Salesforce Service Cloud - Custom Service Processes Implementation</h3>
             </div>
             <p className="text-gray-300 mb-4">
@@ -64,7 +64,7 @@ const Erpsalesforce = () => {
           {/* Project 3 */}
           <div className="p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">03</span>
+              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">Project 03</span>
               <h3 className="text-2xl font-semibold text-white">Salesforce CRM - Sales Process Optimization and Opportunity Management</h3>
             </div>
             <p className="text-gray-300 mb-4">

@@ -31,7 +31,7 @@ const Erpsap = () => {
           {/* Project 1 */}
           <div className="mb-16 p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">01</span>
+              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">Project 01</span>
               <h3 className="text-2xl font-semibold text-white">SAP Integration - Supply Chain Optimization</h3>
             </div>
             <p className="text-gray-300 mb-4">
@@ -50,7 +50,7 @@ const Erpsap = () => {
           {/* Project 2 */}
           <div className="mb-16 p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">02</span>
+              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">Project 02</span>
               <h3 className="text-2xl font-semibold text-white">SAP Integration - Financial Management and Reporting Automation</h3>
             </div>
             <p className="text-gray-300 mb-4">
@@ -69,7 +69,7 @@ const Erpsap = () => {
           {/* Project 3 */}
           <div className="p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">03</span>
+              <span className="bg-orange-500 text-black font-bold text-xl px-4 py-2 rounded-full mr-4">Project 03</span>
               <h3 className="text-2xl font-semibold text-white">SAP Integration - HR Management System Enhancement</h3>
             </div>
             <p className="text-gray-300 mb-4">

@@ -34,7 +34,7 @@ const Erporacle = () => {
           {/* Project 1 */}
           <div className="mb-12 md:mb-16 p-6 md:p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-lg md:text-xl px-4 py-2 rounded-full mr-4">01</span>
+              <span className="bg-orange-500 text-black font-bold text-lg md:text-xl px-4 py-2 rounded-full mr-4">Project 01</span>
               <h3 className="text-xl sm:text-2xl font-semibold text-white">
                 Oracle ERP Integration - Financial Management System Optimization
               </h3>
@@ -54,7 +54,7 @@ const Erporacle = () => {
           {/* Project 2 */}
           <div className="mb-12 md:mb-16 p-6 md:p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-lg md:text-xl px-4 py-2 rounded-full mr-4">02</span>
+              <span className="bg-orange-500 text-black font-bold text-lg md:text-xl px-4 py-2 rounded-full mr-4">Project 02</span>
               <h3 className="text-xl sm:text-2xl font-semibold text-white">
                 Oracle ERP Integration - Supply Chain and Procurement Enhancement
               </h3>
@@ -74,7 +74,7 @@ const Erporacle = () => {
           {/* Project 3 */}
           <div className="p-6 md:p-8 bg-gray-800 rounded-lg">
             <div className="flex items-center mb-4">
-              <span className="bg-orange-500 text-black font-bold text-lg md:text-xl px-4 py-2 rounded-full mr-4">03</span>
+              <span className="bg-orange-500 text-black font-bold text-lg md:text-xl px-4 py-2 rounded-full mr-4">Project 03</span>
               <h3 className="text-xl sm:text-2xl font-semibold text-white">
                 Oracle ERP Integration - Human Capital Management (HCM) System Implementation
               </h3>
