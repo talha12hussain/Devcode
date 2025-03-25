@@ -12,7 +12,7 @@ import Cloud from "./Cloud";
 import Uiux from "./Uiux";
 import BusinessAutomation from "./BusinessAutomation";
 import Viewservices from "./Viewservices";
-import EnterpriseResource from "./enterpriseResource";
+import EnterpriseResource from "./EnterpriseResource";
 import Trainingoutsourcing from "./Trainingoutsourcing";
 import Coustomersofware from "./Coustomersofware";
 function App() {
