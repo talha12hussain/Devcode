@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaPhone, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -43,11 +44,15 @@ const Contact = () => {
         <div className="space-y-6 border border-gray-700 p-6 rounded-lg">
           <div className="bg-gray-800 p-4 rounded-lg flex items-center gap-4">
             <FaEnvelope className="text-orange-500 text-2xl" />
-            <span>info@dev2code.com</span>
+            <a href="mailto:info@dev2code.com" className="hover:text-orange-500 transition">
+              info@dev2code.com
+            </a>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg flex items-center gap-4">
             <FaPhone className="text-orange-500 text-2xl" />
-            <span>+1 (945) 206 0615</span>
+            <a href="tel:+19452060615" className="hover:text-orange-500 transition">
+              +1 (945) 206 0615
+            </a>
           </div>
         </div>
       </div>
@@ -58,21 +63,41 @@ const Contact = () => {
           {/* Menu */}
           <div className="space-y-2">
             <h3 className="text-white font-semibold text-lg">Menu</h3>
-            <a href="#" className="hover:text-orange-500 transition block">Home</a>
-            <a href="#" className="hover:text-orange-500 transition block">About</a>
-            <a href="#" className="hover:text-orange-500 transition block">Services</a>
-            <a href="#" className="hover:text-orange-500 transition block">Contact Us</a>
+            <Link to="/" className="hover:text-orange-500 transition block">
+              Home
+            </Link>
+            <Link to="/about" className="hover:text-orange-500 transition block">
+              About
+            </Link>
+            <Link to="/services" className="hover:text-orange-500 transition block">
+              Services
+            </Link>
+            <Link to="/contact" className="hover:text-orange-500 transition block">
+              Contact Us
+            </Link>
           </div>
 
           {/* Services */}
           <div className="space-y-2">
             <h3 className="text-white font-semibold text-lg">Services</h3>
-            <a href="#" className="hover:text-orange-500 transition block">Custom Software Development</a>
-            <a href="#" className="hover:text-orange-500 transition block">ERP Solutions</a>
-            <a href="#" className="hover:text-orange-500 transition block">Cloud Infrastructure Solutions</a>
-            <a href="#" className="hover:text-orange-500 transition block">UI/UX Design</a>
-            <a href="#" className="hover:text-orange-500 transition block">Business Process Automation</a>
-            <a href="#" className="hover:text-orange-500 transition block">Training & Resource Outsourcing</a>
+            <Link to="/custom-software" className="hover:text-orange-500 transition block">
+              Custom Software Development
+            </Link>
+            <Link to="/enterprise-Resource" className="hover:text-orange-500 transition block">
+              ERP Solutions
+            </Link>
+            <Link to="/cloud" className="hover:text-orange-500 transition block">
+              Cloud Infrastructure Solutions
+            </Link>
+            <Link to="/ui-ux" className="hover:text-orange-500 transition block">
+              UI/UX Design
+            </Link>
+            <Link to="/business-automation" className="hover:text-orange-500 transition block">
+              Business Process Automation
+            </Link>
+            <Link to="/training-outsourcing" className="hover:text-orange-500 transition block">
+              Training & Resource Outsourcing
+            </Link>
           </div>
         </div>
       </footer>
@@ -81,10 +106,18 @@ const Contact = () => {
       <div className="w-full max-w-6xl mt-6 text-center border border-gray-700 p-6 rounded-lg">
         <h3 className="text-white font-semibold text-lg">Follow us:</h3>
         <div className="mt-4 flex justify-center gap-4 text-gray-400 text-2xl">
-          <FaFacebook className="hover:text-orange-500 cursor-pointer transition" />
-          <FaTwitter className="hover:text-orange-500 cursor-pointer transition" />
-          <FaLinkedin className="hover:text-orange-500 cursor-pointer transition" />
-          <FaInstagram className="hover:text-orange-500 cursor-pointer transition" />
+          <a href="https://www.facebook.com/people/Dev2Code/61567694710838" target="_blank" rel="noopener noreferrer">
+            <FaFacebook className="hover:text-orange-500 cursor-pointer transition" />
+          </a>
+          <a href="https://x.com/Dev2code1" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="hover:text-orange-500 cursor-pointer transition" />
+          </a>
+          <a href="https://www.linkedin.com/company/devtwocode" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="hover:text-orange-500 cursor-pointer transition" />
+          </a>
+          <a href="https://www.instagram.com/dev2.code" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="hover:text-orange-500 cursor-pointer transition" />
+          </a>
         </div>
       </div>
     </section>
